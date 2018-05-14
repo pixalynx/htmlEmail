@@ -74,7 +74,7 @@
         }
 
         .logo img{
-            max-width: 100px;
+            max-width: 60px;
             float: right;
             padding-top: 10px;
         }
@@ -116,29 +116,24 @@
             font-size: 24px;
         }
 
-        .accept {
-            background-color: #0b7b96;
-            color: #fff;   
-            width: 150px;
-            height: 40px;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-                
-        }
-
-        .reject {
-            background-color: #fff;
-            color: #0696b7;
+        
+        .link-btn {
+            display: inline-block;
+            background-color:#0696b7 ;
+            color: #fff;
             border: 1px solid #0696b7;
             border-radius: 4px;
             padding: 10px 5px;
             margin: 5px;
             text-align: center;
-            cursor: pointer;
-            box-shadow: 1px 1px 3px 0 rgba(0,0,0,2);
+            cursor: pointer;            
             width: 150px;
-            height: 40px;
+            text-decoration: none;
+        }
+
+        .link-btn-primary {
+            background-color: #fff;
+            color: #0696b7;
         }
 
        </style>
@@ -167,8 +162,8 @@
                     Please select "Yes Please" to complete a quick 5 minute survey.
                     </p>               
                     <div class="buttons">
-                        <button class="accept">Yes Please</button>
-                        <button class="reject">No Thanks</button>     
+                        <a href="#" class="link-btn">Yes Please</a>
+                        <a href="#" class="link-btn link-btn-primary">No Thanks</a>     
                     </div> <!-- end of buttons-->
                     <p class="email-text">Kind Regards, <br><br> Fiona Crawford
                         <br>HR Manager - InfoTrack
